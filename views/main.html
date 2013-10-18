@@ -1,0 +1,15 @@
+<div id="MainCont">
+	<form>
+		<input type="text" autofocus maxlength="25" placeholder="Name" ng-model="userInput"/>
+		<br />
+		<button id="add_button" ng-click="addName(userInput)">+</button>
+	</form>
+
+	<h1>Q</h1>
+
+	<ul>
+		<li class="lifun" ng-repeat="x in names"><div ng-bind="x"></div><button id="close_button" ng-click="deleteFromQ($index)">X</button></li>
+	</ul>
+
+	<button id="clear_button" ng-click="clearAll()">Clear</button>
+</div>

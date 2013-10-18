@@ -1,0 +1,106 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+#MainCont {
+    height: 100%;
+    width: 300px;
+    padding: 30px 0px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #ddd;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+li {
+    margin: 0 auto;
+}
+
+input {
+    height: 30px;
+    width: 298px;
+    margin: none;
+    color: white;
+    font-family: Futura;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+    border: none;
+    background-color: rgba(100, 200, 220, .5);
+    placeholder-color: white;
+}
+
+#add_button {
+    height: 30px;
+    width: 300px;
+    margin: none;
+    color: white;
+    font-family: Futura;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+    border: none;
+    background-color: rgba(100, 200, 220, .3);
+}
+
+#clear_button {
+    height: 30px;
+    width: 300px;
+    margin-top: 3px;
+    margin: none;
+    color: white;
+    font-family: Futura;
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    letter-spacing: 2px;
+    border: none;
+    background-color: rgba(100, 200, 220, .2);
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.lifun {
+    height: 40px;
+    width: 259px;
+    right: 10px;
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: Futura;
+    font-size: 15px;
+    list-style: none;
+    letter-spacing: 2px;
+    border: none;
+    background-color: rgba(300, 100, 50, .2);
+    float: left;
+}
+
+#close_button {
+    border: none;
+    margin-top: 7px;
+}
+
+ul {
+    position: relative;
+    text-align: center;
+    right: 20px;
+    list-style: none;
+    color: white;
+}
